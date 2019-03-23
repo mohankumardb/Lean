@@ -46,6 +46,7 @@ namespace QuantConnect.ToolBox
     {
         public static void Main(string[] args)
         {
+
             var optionsObject = ToolboxArgumentParser.ParseArguments(args);
             if (optionsObject.Count == 0)
             {
@@ -149,7 +150,7 @@ namespace QuantConnect.ToolBox
                         break;
                     case "nmdc":
                     case "nsemarketdataconverter":
-                        NseMarketDataConverterProgram.NseMarketDataConverter(GetParameterOrExit(optionsObject, "source-dir"),
+                        NseIndexOptionDataMigrationToolProgram.NseIndexOptionDataConverter(GetParameterOrExit(optionsObject, "source-dir"),
                                                                              GetParameterOrExit(optionsObject, "destination-dir"));
                         break;
                     case "qqc":

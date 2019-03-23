@@ -214,6 +214,8 @@
     <Compile Include="IEX\IEXDataDownloader.cs" />
     <Compile Include="IEX\IEXDownloaderProgram.cs" />
     <Compile Include="IVolatilityEquityConverter\IVolatilityEquityConverterProgram.cs" />
+    <Compile Include="NseMarketDataConverter\NseIndexOptionDataMigrationTool.cs" />
+    <Compile Include="NseMarketDataConverter\NseIndexDataMigrationTool.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="RandomDataGenerator\ConsoleLeveledOutput.cs" />
     <Compile Include="RandomDataGenerator\DataDensity.cs" />

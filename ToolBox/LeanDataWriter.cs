@@ -97,10 +97,11 @@ namespace QuantConnect.ToolBox
             var sb = new StringBuilder();
             var lastTime = new DateTime();
 
-
+            int i = 0;
             // Loop through all the data and write to file as we go
             foreach (var data in source)
             {
+                i++;
                 // Ensure the data is sorted
                 if (data.Time < lastTime) throw new Exception("The data must be pre-sorted from oldest to newest");
 

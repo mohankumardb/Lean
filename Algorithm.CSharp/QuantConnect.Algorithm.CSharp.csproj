@@ -140,6 +140,9 @@
     <Compile Include="FeeModelNotUsingAccountCurrency.cs" />
     <Compile Include="MaximumPortfolioDrawdownFrameworkAlgorithm.cs" />
     <Compile Include="CompositeRiskManagementModelFrameworkAlgorithm.cs" />
+    <Compile Include="MyAlgo\MyBasicTemplateFuturesAlgorithm.cs" />
+    <Compile Include="MyAlgo\MyMACDTrendAlgorithm2.cs" />
+    <Compile Include="MyAlgo\MyMACDTrendAlgorithm.cs" />
     <Compile Include="ProcessSplitSymbolsRegressionAlgorithm.cs" />
     <Compile Include="SetAccountCurrencyCashBuyingPowerModelRegressionAlgorithm.cs" />
     <Compile Include="SetAccountCurrencySecurityMarginModelRegressionAlgorithm.cs" />

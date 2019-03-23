@@ -45,6 +45,9 @@ namespace QuantConnect
         public const string Forex = "yyyyMMdd HH:mm:ss.ffff";
         /// YYYYMM Year and Month Character Date Representation (used for futures)
         public const string YearMonth = "yyyyMM";
+
+        /// Date format of QC forex data
+        public const string Custom = "yyyy/MM/dd HH:mm:ss.ffff";
     }
 
     /// <summary>

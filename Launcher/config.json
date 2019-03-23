@@ -6,10 +6,10 @@
   // two predefined environments, 'backtesting' and 'live', feel free
   // to add more!
 
-  "environment": "backtesting", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
+  "environment": "backtesting-desktop", // "live-paper", "backtesting", "live-interactive", "live-interactive-iqfeed"
 
   // algorithm class selector
-  "algorithm-type-name": "BasicTemplateFrameworkAlgorithm",
+  "algorithm-type-name": "MyMACDTrendAlgorithm2",
 
   // Algorithm language selector - options CSharp, FSharp, VisualBasic, Python, Java
   "algorithm-language": "CSharp",
@@ -50,11 +50,14 @@
   "force-exchange-always-open": false,
 
   // save list of transactions to the specified csv file
-  "transaction-log": "",
+  "transaction-log": "C:\\LimitTendstoInfinity\\Trade.csv",
 
   // To get your api access token go to quantconnect.com/account
-  "job-user-id": "0",
-  "api-access-token": "",
+  "job-user-id": "73035",
+  "api-access-token": "adf69323d7d76b4569aa21cd28ca05f1",
+
+  //"job-user-id": "0",
+  //"api-access-token": "",
 
   // live data configuration
   "live-data-url": "ws://www.quantconnect.com/api/v2/live/data/",
@@ -243,7 +246,7 @@
     // defines the 'backtesting-desktop' environment
     "backtesting-desktop": {
       "live-mode": false,
-      "send-via-api": true,
+      "send-via-api": false,
 
       "setup-handler": "QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler",
       "result-handler": "QuantConnect.Lean.Engine.Results.BacktestingResultHandler",
@@ -253,7 +256,7 @@
       "messaging-handler": "QuantConnect.Messaging.StreamingMessageHandler",
       "log-handler": "QuantConnect.Logging.QueueLogHandler",
       "desktop-http-port": "1234",
-      "desktop-exe": "../../../UserInterface/bin/Debug/QuantConnect.Views.exe"
+      "desktop-exe": "../../../UserInterface/bin/Release/QuantConnect.Views.exe"
     },
 
     // defines the 'live-desktop' environment

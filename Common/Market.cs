@@ -174,6 +174,8 @@ namespace QuantConnect
         /// </summary>
         public const string Bittrex = "bittrex";
 
+    
+
         /// <summary>
         /// Adds the specified market to the map of available markets with the specified identifier.
         /// </summary>

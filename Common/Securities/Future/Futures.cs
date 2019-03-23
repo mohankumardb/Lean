@@ -223,6 +223,18 @@ namespace QuantConnect.Securities
             /// </summary>
             /// <returns>The symbol</returns>
             public const string Nikkei225Dollar = "NKD";
+
+            /// <summary>
+            /// Nifty Futures
+            /// </summary>
+            /// <returns>The symbol</returns>
+            public const string Nifty = "nifty";
+
+            /// <summary>
+            /// Bank Nifty Futures
+            /// </summary>
+            /// <returns>The symbol</returns>
+            public const string BankNifty = "bnf";
         }
 
         /// <summary>
